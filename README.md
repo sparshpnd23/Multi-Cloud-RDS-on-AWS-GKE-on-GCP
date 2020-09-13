@@ -11,9 +11,12 @@ Thus, this project depicts a great example of Multi Cloud.
 
 Steps:
 
-1- Write an Infrastructure as code using terraform, which automatically deploy the Wordpress application
+1- Write an Infrastructure as code using terraform, which automatically deploy the Wordpress application.
+
 2- On AWS, use RDS service for the relational database for Wordpress application.
+
 3- Deploy the Wordpress as a container on top of Google Kubernetes Engine running on GCP.
+
 4- The Wordpress application should be accessible from the public world.
 
 

@@ -25,7 +25,9 @@ WordPress (WP, WordPress.org) is a free and open-source content management syste
 # What is GKE ?
 
 Google Kubernetes Engine (GKE) provides a managed environment for deploying, managing, and scaling your containerized applications using Google infrastructure. The GKE environment consists of multiple machines (specifically, Compute Engine instances) grouped together to form a cluster.
+
 **It is equivalent to Amazon EKS.**
+
 (Here is a link to a mini project which I had created using Amazon EKS - https://github.com/sparshpnd23/Amazon-EKS)
 
 GKE clusters are powered by the Kubernetes open source cluster management system. Kubernetes provides the mechanisms through which you interact with your cluster. You use Kubernetes commands and resources to deploy and manage your applications, perform administration tasks, set policies, and monitor the health of your deployed workloads.

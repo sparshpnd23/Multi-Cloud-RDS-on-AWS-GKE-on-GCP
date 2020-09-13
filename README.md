@@ -75,6 +75,7 @@ Amazon RDS is available on several database instance types - optimized for memor
                 }
                 
  
+ ![](/multi_cloud_images/gcp.png)
  
  
 **Step - 2:** Create a **var.tf** file in which we will store all the variables that we need to use in our code. This way, our code will be easy to modify in future. Instead of going and changing the values at all places, we will just need to change the values in this variable file.
@@ -530,11 +531,32 @@ The terraform code is as follows :-
             
 **Step - 8:** Now, we run our terraform code. For doing so, we first run the command **terraform init**. This will download the necessary plugins.
 
+![](/multi_cloud_images/init.png)
 
 Then, we run the command **terraform plan**. This will check the code and highlight the errors if they exist.
 
+![](/multi_cloud_images/plan.png)
+
+![](/multi_cloud_images/plan_done.png)
 
  Finally, we run the command **terraform apply --auto-approve**. This will run the code and create the mentioned resources on the configured AWS & GCP Clouds.
+ 
+ ![](/multi_cloud_images/init.png)
+ 
+ 
+ Finally, we will see the terraform local executioner open up our Wordpress site in our web browser.
+ 
+ ![](/multi_cloud_images/wp.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ **Congrats Guys !! We finally did it. We finally deployed our WordPress server on a Multi Cloud setup using a combination of Google Kubernetes Engine from Google Cloud & Amazon Relational Database Services from AWS Cloud."
+ 
+ ![](/multi_cloud_images/celebrate.jpg)
+ 
  
  
  

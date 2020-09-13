@@ -555,7 +555,7 @@ Then, we run the command **terraform plan**. This will check the code and highli
  
 
 
-**Congrats Guys !! We finally did it. We finally deployed our WordPress server on a Multi Cloud setup using a combination of Google Kubernetes Engine from Google Cloud & Amazon Relational Database Services from AWS Cloud."
+**Congrats Guys !! We finally did it. We finally deployed our WordPress server on a Multi Cloud setup using a combination of Google Kubernetes Engine from Google Cloud & Amazon Relational Database Services from AWS Cloud.**
  
  ![](/multi_cloud_images/celebrate.jpg)
  
